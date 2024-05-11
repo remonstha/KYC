@@ -1,0 +1,206 @@
+/* styles.css */
+
+
+
+.tablecss {
+    border: none; /* Remove border for the whole table */
+  }
+
+  .tablecss tr {
+    border: none; /* Remove border for table rows */
+  }
+
+  .tablecss th,
+  .tablecss td {
+    border: none; /* Remove border for table cells */
+    padding: 8px; /* Adjust cell padding */
+  }
+
+.defaultStyle .thcss th {
+    background-color: #645BD0;
+    color: white;
+}
+
+
+
+/* .thcss {
+    background-color:#1CD064;
+    color: white;
+} */
+
+
+/* .trcss should alternate color on every row */
+.defaultStyle .trcss {
+    background-color: #3329bf;
+    color: black;
+    border: none;
+    border-color: transparent;
+}
+
+
+.defaultStyle .trcss:nth-child(even) {
+    background-color: #F6F6FB;
+    border: none;
+    color: black;
+}
+
+/* .defaultStyle .tdcss p {
+    margin-bottom: 0px;
+
+} */
+
+/* dsaf */
+
+/* styles.css */
+
+.subModule{
+    border: 1px solid #BDBAE4;
+    
+    border-radius: 5px !important;
+}
+.bluebg{
+    background-color: #3E69D9;
+    color: white;
+}
+
+
+.subModule .thcss {
+    color: #7D74DD;
+}
+
+
+
+/* .trcss should alternate color on every row */
+.subModule .trcss {
+    color: black;
+    border: none !important;
+}
+
+.subModule .tdcss {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+    font-size: 12px;
+    border: none !important;
+}
+
+.subModule .tdcss p {
+    margin-bottom: 0px;
+
+}
+
+.pending {
+    /* display: flex; */
+justify-content: space-between;
+align-items: center;
+flex: 1 0 0 ;
+align-self: stretch;
+/* background: #3E69D9 !important; */
+border: none;
+
+}
+
+.pending .thcss th{
+background: #3E69D9 !important;
+color:#F6F6FB;
+/* font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+gap: 10px;
+padding: 10px; */
+
+}
+ 
+.pending .tdcss {
+    color: #000;
+/* font-size: 12px;
+font-style: normal;
+font-weight: 400; */
+/* line-height: normal;
+align-items: center;
+gap: 10px;
+padding: 14px 10px; */
+}
+
+.pending .trcss {
+    margin-bottom: 10px;
+}
+
+
+.approved {
+    /* display: flex; */
+/* justify-content: space-between;
+align-items: center;
+flex: 1 0 0 ;
+align-self: stretch; */
+/* background: #3E69D9 !important; */
+border: none;
+
+}
+
+.approved .thcss th{
+    background: #1DCF65;
+    color:#F6F6FB;
+/* font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+gap: 10px;
+padding: 10px; */
+
+}
+ 
+.approved .tdcss {
+    color: #000;
+/* font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+align-items: center;
+gap: 10px;
+padding: 14px 10px; */
+}
+
+.approved .trcss {
+    margin-bottom: 10px;
+}
+
+
+.rejected {
+    /* display: flex; */
+/* justify-content: space-between;
+align-items: center;
+flex: 1 0 0 ;
+align-self: stretch; */
+/* background: #3E69D9 !important; */
+border: none;
+
+}
+
+.rejected .thcss th{
+    background: #E85656;
+        color:#F6F6FB;
+/* font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+gap: 10px;
+padding: 10px; */
+
+}
+ 
+.rejected .tdcss {
+    color: #000;
+/* font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+align-items: center;
+gap: 10px;
+padding: 14px 10px; */
+}
+
+.rejected .trcss {
+    margin-bottom: 10px;
+}
